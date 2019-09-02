@@ -5,6 +5,7 @@ phases:
   install:
     runtime-versions:
         php: 7.3
+        java: corretto11 
   pre_build: 
     commands: 
       - echo Nothing to do in the pre_build phase... 
