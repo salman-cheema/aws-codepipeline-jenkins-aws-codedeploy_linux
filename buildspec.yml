@@ -22,5 +22,5 @@ artifacts:
     - appspec.yml
     - scripts/install_dependencies
     - scripts/start_server
-    - scripts/start_server
+    - scripts/stop_server
     - src/index.html.haml
