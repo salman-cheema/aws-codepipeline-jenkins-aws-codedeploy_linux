@@ -18,7 +18,8 @@ phases:
       - echo Build completed on `date` 
 artifacts: 
   files: 
-    - target/messageUtil-1.0.jar 
+    - target/messageUtil-1.0.jar
+    - appspec.yml
     - appspec.yml/scripts/install_dependencies
     - appspec.yml/scripts/start_server
     - appspec.yml/scripts/start_server
