@@ -2,7 +2,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /index.html.haml
+  - source: src/index.html.haml
     destination: /var/www/html/
 hooks:
   BeforeInstall:
