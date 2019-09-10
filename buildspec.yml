@@ -20,7 +20,4 @@ artifacts:
   files: 
     - target/messageUtil-1.0.jar
     - appspec.yml
-    - scripts/install_dependencies
-    - scripts/start_server
-    - scripts/stop_server
-    - src/index.html.haml
+    - '**/*
